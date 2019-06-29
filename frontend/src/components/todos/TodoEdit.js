@@ -14,14 +14,15 @@ class TodoEdit extends Component {
   };
 
   render() {
-    if (!this.props.todo) {
-      return <div>Loading...</div>;
-    }
+    // if (!this.props.todo) {
+    //   return <div>Loading...</div>;
+    // }
     return (
       <div className='ui container'>
         <h2 style={{ marginTop: '2rem' }}>Edit Todo</h2>
         <TodoForm
           initialValues={_.pick(this.props.todo, 'task')}
+          enableReinitialize={true}
           onSubmit={this.onSubmit}
         />
       </div>
