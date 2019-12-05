@@ -12,11 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.4",
-    "@babel/polyfill": "^7.7.0",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
-    "babel-plugin-transform-class-properties": "^6.24.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
