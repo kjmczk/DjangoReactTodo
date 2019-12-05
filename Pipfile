@@ -8,7 +8,7 @@ flake8 = "*"
 autopep8 = "*"
 
 [packages]
-django = "==2.2.*"
+django = "==3.0"
 djangorestframework = "*"
 
 [requires]
